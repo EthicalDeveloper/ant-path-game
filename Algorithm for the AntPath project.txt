@@ -1,0 +1,32 @@
+   Author:      Kerimjan Rejepov
+   Date:        10/21/2019
+   Instructor:  Pradhemna Shrestha
+   Description: Program has to loop throup 2D array and print the path of an ANT. Ant will take the path with the 
+                lowest pheromone levels. The output should show the Ant calonies that was visited. 
+
+
+
+1. Declare enum for ant colonies.
+2. Create a Function that will generate random numbers 1 - 20 and fill it to 2D array
+   
+   * This function should iterate through the array and fill it with randomly generated number
+   * Use for loop
+3. Create a Function that will print out the 2D array
+    
+   * Iterate through 2D array and print it out to the screen
+   * Make the design to look good for the user to understand the way Ant chose the path
+4. Create a Function that checks whether the colony was visited
+
+   * For this create 1D array 
+   * Iterate through the columns and find the lowest
+   * Do it for every row
+5. Create a Function that will print out the path of the ANT to the user
+
+   * Using switch and Enum values print out the path
+   * It should change every time user runs the program
+   * Make sure the design looks good
+
+6. Inside main function, declare the variables and give the function arguments. 
+
+   * Think about the arguments needs to be given.
+
